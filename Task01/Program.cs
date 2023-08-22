@@ -14,6 +14,6 @@
 
         // Ex ----> Pass by Ref For Ref Type 
 
-        static void Swap(ref int x, ref int y) => (y, x) = (x, y);
+        private static void Swap(ref int x, ref int y) => (y, x) = (x, y);
     }
 }
